@@ -1,0 +1,121 @@
+/* Tipografía y colores base */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #F1F8E9;
+  color: #424242;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+  color: #1B5E20;
+}
+
+h5 {
+  font-weight: 600;
+color: #A5D6A7;
+}
+
+/* NAVBAR */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* CARRUSEL */
+.carousel-item {
+  height: 60vh;
+  min-height: 300px;
+  background-color: #000;
+  color: white;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  opacity: 0.85;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.45);
+  padding: 1rem 2rem;
+  border-radius: 8px;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(rgba(0, 80, 0, 0.6), rgba(0, 80, 0, 0.6)), url('../img/solar-panels.jpg') center/cover no-repeat;
+  height: 80vh;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+/* TARJETAS DE BENEFICIOS */
+.card {
+  border: none;
+  background-color: #A5D6A7;
+  color: #1B5E20;
+  font-weight: 500;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+/* BOTONES PERSONALIZADOS */
+.btn-outline-success {
+  border-color: #1B5E20;
+  color: #1B5E20;
+}
+
+.btn-outline-success:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* GALERIA */
+.gallery-img-wrapper {
+  overflow: hidden;
+  border-radius: 8px;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.gallery-img:hover {
+  transform: scale(1.05);
+}
+
+/* SECCION SOBRE NOSOTROS */
+#sobre-nosotros .card-title {
+  color: #1B5E20;
+  font-weight: 600;
+}
+
+#sobre-nosotros .card-text {
+  font-size: 0.95rem;
+}
+
+#sobre-nosotros .card {
+  border: none;
+  background-color: #E8F5E9;
+  transition: transform 0.3s ease;
+}
+
+#sobre-nosotros .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* FOOTER */
+footer {
+  font-size: 0.9rem;
+  background-color: #1B5E20 !important;
+}
