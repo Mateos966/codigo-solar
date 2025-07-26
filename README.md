@@ -83,6 +83,7 @@ Renewable Energy World Wide 1965–2022
 ## Informe del proyecto
 
 Descargar Informe del Proyecto (PDF)
+https://github.com/Mateos966/codigo-solar/raw/main/docs/informeProyecto.pdf 
 
 ⸻
 
